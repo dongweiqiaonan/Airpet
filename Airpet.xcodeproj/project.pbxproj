@@ -15,6 +15,16 @@
 		9E8D98DD1FD93D6B00396259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D98DC1FD93D6B00396259 /* main.m */; };
 		9E8D98E71FD93D6B00396259 /* AirpetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D98E61FD93D6B00396259 /* AirpetTests.m */; };
 		9E8D98F21FD93D6B00396259 /* AirpetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D98F11FD93D6B00396259 /* AirpetUITests.m */; };
+		9E8D99011FD93DF700396259 /* RootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D99001FD93DF700396259 /* RootTabBarViewController.m */; };
+		9E8D99041FD93E4000396259 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D99031FD93E4000396259 /* PeopleViewController.m */; };
+		9E8D99071FD93E5900396259 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D99061FD93E5900396259 /* TopicViewController.m */; };
+		9E8D990A1FD93E7000396259 /* StoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D99091FD93E7000396259 /* StoreViewController.m */; };
+		9E8D990D1FD93E8300396259 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D990C1FD93E8300396259 /* OtherViewController.m */; };
+		9E8D99131FD947DA00396259 /* people_tab_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8D99121FD947DA00396259 /* people_tab_picture.png */; };
+		9E8D99151FD9482C00396259 /* topic_tab_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8D99141FD9482C00396259 /* topic_tab_picture.png */; };
+		9E8D99171FD9489D00396259 /* store_tab_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8D99161FD9489D00396259 /* store_tab_picture.png */; };
+		9E8D99191FD948F500396259 /* other_tab_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8D99181FD948F500396259 /* other_tab_picture.png */; };
+		9E8D99201FD94F7500396259 /* PeopleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D991F1FD94F7500396259 /* PeopleHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,24 @@
 		9E8D98ED1FD93D6B00396259 /* AirpetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirpetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8D98F11FD93D6B00396259 /* AirpetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirpetUITests.m; sourceTree = "<group>"; };
 		9E8D98F31FD93D6B00396259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8D98FF1FD93DF700396259 /* RootTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarViewController.h; sourceTree = "<group>"; };
+		9E8D99001FD93DF700396259 /* RootTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarViewController.m; sourceTree = "<group>"; };
+		9E8D99021FD93E4000396259 /* PeopleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		9E8D99031FD93E4000396259 /* PeopleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+		9E8D99051FD93E5900396259 /* TopicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
+		9E8D99061FD93E5900396259 /* TopicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		9E8D99081FD93E7000396259 /* StoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreViewController.h; sourceTree = "<group>"; };
+		9E8D99091FD93E7000396259 /* StoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreViewController.m; sourceTree = "<group>"; };
+		9E8D990B1FD93E8300396259 /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		9E8D990C1FD93E8300396259 /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		9E8D99121FD947DA00396259 /* people_tab_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people_tab_picture.png; sourceTree = "<group>"; };
+		9E8D99141FD9482C00396259 /* topic_tab_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topic_tab_picture.png; sourceTree = "<group>"; };
+		9E8D99161FD9489D00396259 /* store_tab_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_tab_picture.png; sourceTree = "<group>"; };
+		9E8D99181FD948F500396259 /* other_tab_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other_tab_picture.png; sourceTree = "<group>"; };
+		9E8D991E1FD94F7500396259 /* PeopleHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeopleHeaderView.h; sourceTree = "<group>"; };
+		9E8D991F1FD94F7500396259 /* PeopleHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeopleHeaderView.m; sourceTree = "<group>"; };
+		9E8D99211FD951DC00396259 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		9E8D99241FD9539F00396259 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +133,12 @@
 				9E8D98CE1FD93D6B00396259 /* AppDelegate.m */,
 				9E8D98D01FD93D6B00396259 /* ViewController.h */,
 				9E8D98D11FD93D6B00396259 /* ViewController.m */,
+				9E8D99211FD951DC00396259 /* Macros.h */,
+				9E8D99241FD9539F00396259 /* PrefixHeader.pch */,
+				9E8D991D1FD94EDB00396259 /* Topic */,
+				9E8D991C1FD94E9400396259 /* People */,
+				9E8D991B1FD949A000396259 /* RootViewController */,
+				9E8D991A1FD9497500396259 /* image */,
 				9E8D98D31FD93D6B00396259 /* Main.storyboard */,
 				9E8D98D61FD93D6B00396259 /* Assets.xcassets */,
 				9E8D98D81FD93D6B00396259 /* LaunchScreen.storyboard */,
@@ -130,6 +164,50 @@
 				9E8D98F31FD93D6B00396259 /* Info.plist */,
 			);
 			path = AirpetUITests;
+			sourceTree = "<group>";
+		};
+		9E8D991A1FD9497500396259 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				9E8D99121FD947DA00396259 /* people_tab_picture.png */,
+				9E8D99141FD9482C00396259 /* topic_tab_picture.png */,
+				9E8D99161FD9489D00396259 /* store_tab_picture.png */,
+				9E8D99181FD948F500396259 /* other_tab_picture.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9E8D991B1FD949A000396259 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E8D98FF1FD93DF700396259 /* RootTabBarViewController.h */,
+				9E8D99001FD93DF700396259 /* RootTabBarViewController.m */,
+				9E8D99081FD93E7000396259 /* StoreViewController.h */,
+				9E8D99091FD93E7000396259 /* StoreViewController.m */,
+				9E8D990B1FD93E8300396259 /* OtherViewController.h */,
+				9E8D990C1FD93E8300396259 /* OtherViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		9E8D991C1FD94E9400396259 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				9E8D99021FD93E4000396259 /* PeopleViewController.h */,
+				9E8D99031FD93E4000396259 /* PeopleViewController.m */,
+				9E8D991E1FD94F7500396259 /* PeopleHeaderView.h */,
+				9E8D991F1FD94F7500396259 /* PeopleHeaderView.m */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		9E8D991D1FD94EDB00396259 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				9E8D99051FD93E5900396259 /* TopicViewController.h */,
+				9E8D99061FD93E5900396259 /* TopicViewController.m */,
+			);
+			path = Topic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +316,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8D99171FD9489D00396259 /* store_tab_picture.png in Resources */,
 				9E8D98DA1FD93D6B00396259 /* LaunchScreen.storyboard in Resources */,
+				9E8D99151FD9482C00396259 /* topic_tab_picture.png in Resources */,
+				9E8D99191FD948F500396259 /* other_tab_picture.png in Resources */,
 				9E8D98D71FD93D6B00396259 /* Assets.xcassets in Resources */,
 				9E8D98D51FD93D6B00396259 /* Main.storyboard in Resources */,
+				9E8D99131FD947DA00396259 /* people_tab_picture.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8D99011FD93DF700396259 /* RootTabBarViewController.m in Sources */,
+				9E8D990D1FD93E8300396259 /* OtherViewController.m in Sources */,
 				9E8D98D21FD93D6B00396259 /* ViewController.m in Sources */,
+				9E8D99201FD94F7500396259 /* PeopleHeaderView.m in Sources */,
+				9E8D99071FD93E5900396259 /* TopicViewController.m in Sources */,
 				9E8D98DD1FD93D6B00396259 /* main.m in Sources */,
+				9E8D990A1FD93E7000396259 /* StoreViewController.m in Sources */,
+				9E8D99041FD93E4000396259 /* PeopleViewController.m in Sources */,
 				9E8D98CF1FD93D6B00396259 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +519,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Airpet/PrefixHeader.pch";
 				INFOPLIST_FILE = Airpet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dongwei.Airpet;
@@ -444,6 +534,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Airpet/PrefixHeader.pch";
 				INFOPLIST_FILE = Airpet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dongwei.Airpet;
