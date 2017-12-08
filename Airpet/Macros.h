@@ -12,4 +12,5 @@
 #define TabBarHeight 49
 #define StatuesHeight 20
 #define NavBarHeight 44
+#define NavHeight 64
 

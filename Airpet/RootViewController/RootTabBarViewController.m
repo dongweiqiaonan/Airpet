@@ -18,7 +18,7 @@
     RootTabBarViewController * rootViewController = [[RootTabBarViewController alloc] init];
     
     PeopleViewController * peopleViewController = [[PeopleViewController alloc] init];
-    peopleViewController.view.backgroundColor = [UIColor yellowColor];
+    peopleViewController.view.backgroundColor = [UIColor whiteColor];
     peopleViewController.tabBarItem.title = @"个人";
     peopleViewController.tabBarItem.image = [UIImage imageNamed:@"people_tab_picture.png"];
     UINavigationController * navPeopleViewController = [[UINavigationController alloc] initWithRootViewController:peopleViewController];

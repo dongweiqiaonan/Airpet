@@ -24,7 +24,7 @@
 }
 -(void)addPeopleHeaderView
 {
-    PeopleHeaderView * peopleHearderView = [[PeopleHeaderView alloc ]initWithFrame:CGRectMake(0, 0, 200, 200)];
+    PeopleHeaderView * peopleHearderView = [[PeopleHeaderView alloc ]initWithFrame:CGRectMake(0, NavHeight, ScreenWidth, 0.3*ScreenHeight)];
     [self.view addSubview:peopleHearderView];
     
 }

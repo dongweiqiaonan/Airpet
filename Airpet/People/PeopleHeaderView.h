@@ -10,4 +10,9 @@
 
 @interface PeopleHeaderView : UIView
 
+@property(nonatomic,strong) UIImageView * headerImageView;
+@property(nonatomic,strong) UIButton * headerButton;
+@property(nonatomic,strong) UILabel * nameLabel;
+@property(nonatomic,strong) UIButton * loginButton;
+
 @end

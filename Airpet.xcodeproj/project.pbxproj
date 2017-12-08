@@ -25,6 +25,9 @@
 		9E8D99171FD9489D00396259 /* store_tab_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8D99161FD9489D00396259 /* store_tab_picture.png */; };
 		9E8D99191FD948F500396259 /* other_tab_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8D99181FD948F500396259 /* other_tab_picture.png */; };
 		9E8D99201FD94F7500396259 /* PeopleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D991F1FD94F7500396259 /* PeopleHeaderView.m */; };
+		9E93AFF01FDA79D800488198 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E93AFEF1FDA79D800488198 /* setting.png */; };
+		9E93AFF61FDA812F00488198 /* pet_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E93AFF51FDA812F00488198 /* pet_background.png */; };
+		9E93AFF81FDA841B00488198 /* personHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E93AFF71FDA841B00488198 /* personHeader.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		9E8D991F1FD94F7500396259 /* PeopleHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeopleHeaderView.m; sourceTree = "<group>"; };
 		9E8D99211FD951DC00396259 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		9E8D99241FD9539F00396259 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9E93AFEF1FDA79D800488198 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		9E93AFF51FDA812F00488198 /* pet_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pet_background.png; sourceTree = "<group>"; };
+		9E93AFF71FDA841B00488198 /* personHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personHeader.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,9 @@
 		9E8D991A1FD9497500396259 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				9E93AFF51FDA812F00488198 /* pet_background.png */,
+				9E93AFEF1FDA79D800488198 /* setting.png */,
+				9E93AFF71FDA841B00488198 /* personHeader.png */,
 				9E8D99121FD947DA00396259 /* people_tab_picture.png */,
 				9E8D99141FD9482C00396259 /* topic_tab_picture.png */,
 				9E8D99161FD9489D00396259 /* store_tab_picture.png */,
@@ -320,7 +329,10 @@
 				9E8D98DA1FD93D6B00396259 /* LaunchScreen.storyboard in Resources */,
 				9E8D99151FD9482C00396259 /* topic_tab_picture.png in Resources */,
 				9E8D99191FD948F500396259 /* other_tab_picture.png in Resources */,
+				9E93AFF61FDA812F00488198 /* pet_background.png in Resources */,
 				9E8D98D71FD93D6B00396259 /* Assets.xcassets in Resources */,
+				9E93AFF01FDA79D800488198 /* setting.png in Resources */,
+				9E93AFF81FDA841B00488198 /* personHeader.png in Resources */,
 				9E8D98D51FD93D6B00396259 /* Main.storyboard in Resources */,
 				9E8D99131FD947DA00396259 /* people_tab_picture.png in Resources */,
 			);
