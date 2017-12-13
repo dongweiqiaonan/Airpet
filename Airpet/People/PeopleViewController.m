@@ -8,6 +8,7 @@
 
 #import "PeopleViewController.h"
 #import "PeopleHeaderView.h"
+#import "LoginViewController.h"
 
 @interface PeopleViewController ()
 
@@ -24,8 +25,17 @@
 }
 -(void)addPeopleHeaderView
 {
-    PeopleHeaderView * peopleHearderView = [[PeopleHeaderView alloc ]initWithFrame:CGRectMake(0, NavHeight, ScreenWidth, 0.3*ScreenHeight)];
-    [self.view addSubview:peopleHearderView];
+    PeopleHeaderView * peopleHeaderView = [[PeopleHeaderView alloc ]initWithFrame:CGRectMake(0, NavHeight, ScreenWidth, 0.3*ScreenHeight)];
+    [self.view addSubview:peopleHeaderView];
+    peopleHeaderView.login_block = ^{
+        __weak PeopleViewController * weakSelf = self;
+        [weakSelf creatLoginViewController];
+    };
+}
+
+-(void)creatLoginViewController{
+    LoginViewController * loginVC = [[LoginViewController alloc]init];
+    [self.navigationController pushViewController:loginVC animated:YES];
     
 }
 

@@ -28,6 +28,8 @@
 		9E93AFF01FDA79D800488198 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E93AFEF1FDA79D800488198 /* setting.png */; };
 		9E93AFF61FDA812F00488198 /* pet_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E93AFF51FDA812F00488198 /* pet_background.png */; };
 		9E93AFF81FDA841B00488198 /* personHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E93AFF71FDA841B00488198 /* personHeader.png */; };
+		9EF357691FE1363F00B559FC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF357681FE1363F00B559FC /* LoginViewController.m */; };
+		9EF3576C1FE1397E00B559FC /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF3576B1FE1397E00B559FC /* LoginView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,10 @@
 		9E93AFEF1FDA79D800488198 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
 		9E93AFF51FDA812F00488198 /* pet_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pet_background.png; sourceTree = "<group>"; };
 		9E93AFF71FDA841B00488198 /* personHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personHeader.png; sourceTree = "<group>"; };
+		9EF357671FE1363F00B559FC /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9EF357681FE1363F00B559FC /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9EF3576A1FE1397E00B559FC /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		9EF3576B1FE1397E00B559FC /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +212,10 @@
 				9E8D99031FD93E4000396259 /* PeopleViewController.m */,
 				9E8D991E1FD94F7500396259 /* PeopleHeaderView.h */,
 				9E8D991F1FD94F7500396259 /* PeopleHeaderView.m */,
+				9EF357671FE1363F00B559FC /* LoginViewController.h */,
+				9EF357681FE1363F00B559FC /* LoginViewController.m */,
+				9EF3576A1FE1397E00B559FC /* LoginView.h */,
+				9EF3576B1FE1397E00B559FC /* LoginView.m */,
 			);
 			path = People;
 			sourceTree = "<group>";
@@ -363,6 +373,8 @@
 				9E8D990D1FD93E8300396259 /* OtherViewController.m in Sources */,
 				9E8D98D21FD93D6B00396259 /* ViewController.m in Sources */,
 				9E8D99201FD94F7500396259 /* PeopleHeaderView.m in Sources */,
+				9EF357691FE1363F00B559FC /* LoginViewController.m in Sources */,
+				9EF3576C1FE1397E00B559FC /* LoginView.m in Sources */,
 				9E8D99071FD93E5900396259 /* TopicViewController.m in Sources */,
 				9E8D98DD1FD93D6B00396259 /* main.m in Sources */,
 				9E8D990A1FD93E7000396259 /* StoreViewController.m in Sources */,

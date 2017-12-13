@@ -49,12 +49,21 @@
         self.loginButton.titleLabel.textAlignment = NSTextAlignmentCenter;
         [self.loginButton setTitle:[NSString stringWithFormat:@"点击登录"] forState:UIControlStateNormal];
         [self.loginButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [self.loginButton addTarget:self action:@selector(loginButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         [self.headerImageView addSubview:self.loginButton];
         
         self.backgroundColor = [UIColor whiteColor];
         
     }
     return self;
+}
+
+-(void)loginButtonClick:(UIButton *)sender {
+    
+    if (self.login_block) {
+        self.login_block();
+    }
+    
 }
 
 @end
