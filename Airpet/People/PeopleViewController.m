@@ -27,8 +27,8 @@
 {
     PeopleHeaderView * peopleHeaderView = [[PeopleHeaderView alloc ]initWithFrame:CGRectMake(0, NavHeight, ScreenWidth, 0.3*ScreenHeight)];
     [self.view addSubview:peopleHeaderView];
+    __weak PeopleViewController * weakSelf = self;
     peopleHeaderView.login_block = ^{
-        __weak PeopleViewController * weakSelf = self;
         [weakSelf creatLoginViewController];
     };
 }

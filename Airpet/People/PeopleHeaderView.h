@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^loginButtonClickBlock)();
+typedef void (^loginButtonClickBlock)(void);
 
 @interface PeopleHeaderView : UIView
 

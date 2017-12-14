@@ -8,6 +8,8 @@
 
 #import "LoginViewController.h"
 #import "LoginView.h"
+#import "RegisterViewController.h"
+#import "ForgetpasswordViewController.h"
 
 @interface LoginViewController ()
 
@@ -26,7 +28,32 @@
 -(void)creatHeaderView {
     LoginView * loginview = [[LoginView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight)];
     [self.view addSubview:loginview];
+    __weak LoginViewController * weakSelf = self;
     
+    loginview.registerBtn_block = ^{
+        [weakSelf creatRegiserViewController];
+    };
+    
+    loginview.forgetBtn_block = ^{
+        [weakSelf creatForgetpasswordViewController];
+    };
+    
+    loginview.loginBtn_block = ^{
+        
+        
+    };
+    
+}
+
+-(void)creatRegiserViewController {
+    RegisterViewController * registerVC = [[RegisterViewController alloc] init];
+    [self.navigationController pushViewController:registerVC animated:YES];
+    
+}
+
+-(void)creatForgetpasswordViewController {
+    ForgetpasswordViewController * forgerpasswordVC = [[ForgetpasswordViewController alloc] init];
+    [self.navigationController pushViewController:forgerpasswordVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
