@@ -27,21 +27,25 @@
     topicViewController.view.backgroundColor = [UIColor redColor];
     topicViewController.tabBarItem.title = @"话题";
     topicViewController.tabBarItem.image = [UIImage imageNamed:@"topic_tab_picture.png"];
+    UINavigationController * navTopicViewController = [[UINavigationController alloc] initWithRootViewController:topicViewController];
     
     StoreViewController * storeViewController = [[StoreViewController alloc] init];
     storeViewController.view.backgroundColor = [UIColor whiteColor];
     storeViewController.tabBarItem.title = @"商店";
     storeViewController.tabBarItem.image = [UIImage imageNamed:@"store_tab_picture.png"];
+    UINavigationController * navStoreViewController = [[UINavigationController alloc] initWithRootViewController:storeViewController];
     
     OtherViewController * otherViewController = [[OtherViewController alloc] init];
     otherViewController.view.backgroundColor = [UIColor greenColor];
     otherViewController.tabBarItem.title = @"其他";
     otherViewController.tabBarItem.image = [UIImage imageNamed:@"other_tab_picture.png"];
+    UINavigationController * navOtherViewController = [[UINavigationController alloc] initWithRootViewController:otherViewController];
     
-    rootViewController.viewControllers = @[storeViewController,otherViewController,topicViewController,navPeopleViewController];
+    rootViewController.viewControllers = @[navStoreViewController,navOtherViewController,navTopicViewController,navPeopleViewController];
     
     return rootViewController;
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

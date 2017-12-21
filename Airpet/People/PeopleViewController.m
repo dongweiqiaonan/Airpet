@@ -9,6 +9,8 @@
 #import "PeopleViewController.h"
 #import "PeopleHeaderView.h"
 #import "LoginViewController.h"
+#import "AppDelegate.h"
+
 
 @interface PeopleViewController ()
 
@@ -35,8 +37,8 @@
 
 -(void)creatLoginViewController{
     LoginViewController * loginVC = [[LoginViewController alloc]init];
+    loginVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:loginVC animated:YES];
-    
 }
 
 - (void)didReceiveMemoryWarning {

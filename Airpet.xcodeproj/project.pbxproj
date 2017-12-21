@@ -36,6 +36,7 @@
 		9EAE69871FE29F30004671C4 /* ForgetpasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE69861FE29F30004671C4 /* ForgetpasswordView.m */; };
 		9EF357691FE1363F00B559FC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF357681FE1363F00B559FC /* LoginViewController.m */; };
 		9EF3576C1FE1397E00B559FC /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF3576B1FE1397E00B559FC /* LoginView.m */; };
+		BA382872B033E50BE49BCC48 /* libPods-Airpet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F31D8935A2C60F0B992E7C64 /* libPods-Airpet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19380BDE4996ECB7C4DC3EDE /* Pods-Airpet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airpet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airpet/Pods-Airpet.debug.xcconfig"; sourceTree = "<group>"; };
+		4611FD93E72ACDF91069297D /* Pods-Airpet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airpet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airpet/Pods-Airpet.release.xcconfig"; sourceTree = "<group>"; };
 		9E8D98CA1FD93D6A00396259 /* Airpet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airpet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8D98CD1FD93D6A00396259 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E8D98CE1FD93D6B00396259 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		9EF357681FE1363F00B559FC /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		9EF3576A1FE1397E00B559FC /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		9EF3576B1FE1397E00B559FC /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		F31D8935A2C60F0B992E7C64 /* libPods-Airpet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airpet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA382872B033E50BE49BCC48 /* libPods-Airpet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +139,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		618C5EC98D3CB5E23C41D99D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19380BDE4996ECB7C4DC3EDE /* Pods-Airpet.debug.xcconfig */,
+				4611FD93E72ACDF91069297D /* Pods-Airpet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9E8D98C11FD93D6A00396259 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +155,8 @@
 				9E8D98E51FD93D6B00396259 /* AirpetTests */,
 				9E8D98F01FD93D6B00396259 /* AirpetUITests */,
 				9E8D98CB1FD93D6A00396259 /* Products */,
+				618C5EC98D3CB5E23C41D99D /* Pods */,
+				A7300719D0FEA7AD0AFE9A64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -255,6 +271,14 @@
 			path = Topic;
 			sourceTree = "<group>";
 		};
+		A7300719D0FEA7AD0AFE9A64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F31D8935A2C60F0B992E7C64 /* libPods-Airpet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E8D98F61FD93D6B00396259 /* Build configuration list for PBXNativeTarget "Airpet" */;
 			buildPhases = (
+				37DC8A88857EE1B0E2188E80 /* [CP] Check Pods Manifest.lock */,
 				9E8D98C61FD93D6A00396259 /* Sources */,
 				9E8D98C71FD93D6A00396259 /* Frameworks */,
 				9E8D98C81FD93D6A00396259 /* Resources */,
+				C2630582B51E3391A5647F71 /* [CP] Embed Pods Frameworks */,
+				33F2E4A9E978940002669CF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -391,6 +418,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33F2E4A9E978940002669CF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airpet/Pods-Airpet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37DC8A88857EE1B0E2188E80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Airpet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2630582B51E3391A5647F71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airpet/Pods-Airpet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E8D98C61FD93D6A00396259 /* Sources */ = {
@@ -572,6 +650,7 @@
 		};
 		9E8D98F71FD93D6B00396259 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19380BDE4996ECB7C4DC3EDE /* Pods-Airpet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -587,6 +666,7 @@
 		};
 		9E8D98F81FD93D6B00396259 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4611FD93E72ACDF91069297D /* Pods-Airpet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

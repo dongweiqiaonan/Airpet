@@ -22,7 +22,24 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"登录";
     [self creatHeaderView];
+    [self initLeftNavigationItem];
     // Do any additional setup after loading the view.
+}
+
+-(void)initLeftNavigationItem{
+    UIButton *LButton =[UIButton buttonWithType:UIButtonTypeCustom];
+    LButton.frame = CGRectMake(0, 0, 40, 30);
+    LButton.imageEdgeInsets= UIEdgeInsetsMake(0, 20, 0, 0);
+    [LButton setTitle:@"返回" forState:UIControlStateNormal];
+    [LButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
+    LButton.titleLabel.font = [UIFont systemFontOfSize:18];
+    [LButton addTarget:self action:@selector(backClick) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *leftButton=[[UIBarButtonItem alloc]initWithCustomView:LButton];
+    self.navigationItem.leftBarButtonItem = leftButton;
+}
+
+-(void)backClick{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 -(void)creatHeaderView {

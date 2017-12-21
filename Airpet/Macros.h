@@ -13,4 +13,5 @@
 #define StatuesHeight 20
 #define NavBarHeight 44
 #define NavHeight 64
+#define AppDelegateInstance  ((AppDelegate*)([UIApplication sharedApplication].delegate))
 

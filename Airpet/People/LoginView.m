@@ -56,7 +56,7 @@
         [self addSubview:passwordImageView];
         
         self.loginButton = [[UIButton alloc] initWithFrame:CGRectMake(20, CGRectGetMaxY(self.passWordTextField.frame)+200, ScreenWidth-40, 50)];
-        self.loginButton.backgroundColor = [UIColor redColor];
+        self.loginButton.backgroundColor = [UIColor lightGrayColor];
         [self.loginButton setTitle:@"登录" forState:UIControlStateNormal];
         [self.loginButton addTarget:self action:@selector(loginButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         
@@ -64,13 +64,13 @@
         self.registerButton = [[UIButton alloc] initWithFrame:CGRectMake(50, CGRectGetMaxY(self.passWordTextField.frame)+30, 80*proportion, 30)];
         [self.registerButton setTitle:@"注册账号" forState:UIControlStateNormal];
         self.registerButton.backgroundColor = [UIColor whiteColor];
-        [self.registerButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [self.registerButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
         [self.registerButton addTarget:self action:@selector(registerButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         
         self.forgetpasswordButton = [[UIButton alloc] initWithFrame:CGRectMake(ScreenWidth*0.5+65, CGRectGetMaxY(self.passWordTextField.frame)+30, 80*proportion, 30)];
         [self.forgetpasswordButton setTitle:@"忘记密码" forState:UIControlStateNormal];
         self.forgetpasswordButton.backgroundColor = [UIColor whiteColor];
-        [self.forgetpasswordButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [self.forgetpasswordButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
         [self.forgetpasswordButton addTarget:self action:@selector(forgetpasswordButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         
         [self addSubview:self.loginButton];

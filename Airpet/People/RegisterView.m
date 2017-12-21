@@ -44,7 +44,7 @@
         self.password.delegate =self;
         
         self.registerButton = [[UIButton alloc] initWithFrame:CGRectMake(20, CGRectGetMaxY(self.password.frame)+200, ScreenWidth-40, 50)];
-        self.registerButton.backgroundColor = [UIColor redColor];
+        self.registerButton.backgroundColor = [UIColor lightGrayColor];
         [self.registerButton setTitle:@"注册" forState:UIControlStateNormal];
         [self.registerButton addTarget:self action:@selector(registerButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         
